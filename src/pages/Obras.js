@@ -1,15 +1,20 @@
 import React, { Component, useState } from 'react'
 import NavHeader from '../components/NavHeader'
 import { CiCircleRemove } from "react-icons/ci";
+
 import BarGerencia from './gerencia/BarGerencia';
+
 
 function Obras() {
   const [open, setOpen] = useState(false);
   return (
     <body className='bg-[#161616] min-h-screen'>
         <NavHeader/>
+
         <BarGerencia/>
-        <section className=' text-[#fff] px-[50px]'>
+
+        <section className=' text-[#fff] pt-[100px] px-[50px]'>
+
           <div className='bg-[#1E1E1E] rounded-md'>
             <div className='justify-between flex p-6'>
   
@@ -63,7 +68,6 @@ function Obras() {
                   <button type='button'>ver</button>
                 </div>
               </div>
-             
             </div>
           </div>
           
