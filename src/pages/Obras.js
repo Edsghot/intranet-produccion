@@ -27,7 +27,7 @@ function Obras() {
               </div>
               <div>
                 <div type="button" onClick={()=> setOpen(true)} className='border border-[#FFB421] rounded-md px-6 py-2 text-[#FFB421] hover:text-[#fff] hover:bg-[#FFB421] cursor-pointer'>
-                  Añadir
+                  Añadir Button
                 </div>
                 
               </div>
